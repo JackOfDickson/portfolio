@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JackOfDickson.github.io/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/JackOfDickson.github.io/portfolio/static/js/main.2207f68a.js",
-    "static/js/787.ae5ccde2.chunk.js": "/JackOfDickson.github.io/portfolio/static/js/787.ae5ccde2.chunk.js",
-    "index.html": "/JackOfDickson.github.io/portfolio/index.html",
-    "main.073c9b0a.css.map": "/JackOfDickson.github.io/portfolio/static/css/main.073c9b0a.css.map",
-    "main.2207f68a.js.map": "/JackOfDickson.github.io/portfolio/static/js/main.2207f68a.js.map",
-    "787.ae5ccde2.chunk.js.map": "/JackOfDickson.github.io/portfolio/static/js/787.ae5ccde2.chunk.js.map"
+    "main.css": "/jackofdickson.github.io/portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/jackofdickson.github.io/portfolio/static/js/main.e65ab0f4.js",
+    "static/js/787.ae5ccde2.chunk.js": "/jackofdickson.github.io/portfolio/static/js/787.ae5ccde2.chunk.js",
+    "index.html": "/jackofdickson.github.io/portfolio/index.html",
+    "main.073c9b0a.css.map": "/jackofdickson.github.io/portfolio/static/css/main.073c9b0a.css.map",
+    "main.e65ab0f4.js.map": "/jackofdickson.github.io/portfolio/static/js/main.e65ab0f4.js.map",
+    "787.ae5ccde2.chunk.js.map": "/jackofdickson.github.io/portfolio/static/js/787.ae5ccde2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.2207f68a.js"
+    "static/js/main.e65ab0f4.js"
   ]
 }
