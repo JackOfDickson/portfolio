@@ -16,22 +16,37 @@ const Project = ({project}) => {
         width:320px;
         margin-left: 20px;
         margin-right: 20px;
+        color: white;
+
         `
 
     const Title = styled.h4`
         text-align: center;
         margin: 0;
+        
+        `
+
+    const StyledLink = styled.a`
+        text-decoration: none;
+        &:link, :visited {
+            color: white;
+            text-decoration: none;
+            }
+        &:hover {
+            color: #3271a8;;
+            }
         `
 
     const ToolList = styled.ul`
         display: flex;
         flex-wrap: wrap;
+        text-decoration: none;
         
         `
 
     return (
     <ProjectContainer>
-        <Title><a href={project.link}>{project.title}</a></Title>
+        <Title><StyledLink href={project.link}>{project.title}</StyledLink></Title>
         <p>{project.description}</p>
         <p>Made with:</p>
         <ToolList>
