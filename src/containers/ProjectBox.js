@@ -27,7 +27,12 @@ const ProjectBox = () => {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        color: white;`
+        color: white;
+            &a:link, a:visited {
+                color: white;
+
+            }
+        `
 
     return (
     <div>

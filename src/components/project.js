@@ -20,17 +20,23 @@ const Project = ({project}) => {
 
     const Title = styled.h4`
         text-align: center;
+        margin: 0;
+        `
+
+    const ToolList = styled.ul`
+        display: flex;
+        flex-wrap: wrap;
+        
         `
 
     return (
     <ProjectContainer>
-        <Title>{project.title}</Title>
+        <Title><a href={project.link}>{project.title}</a></Title>
         <p>{project.description}</p>
         <p>Made with:</p>
-        <ul>
+        <ToolList>
             {madeWithNodes}
-        </ul>
-        <p><a href={project.link}>Github</a></p>
+        </ToolList>
     </ProjectContainer>
     )
 }

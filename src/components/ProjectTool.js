@@ -7,6 +7,11 @@ const ProjectTool = ({tool, index}) => {
     
     const StyledTool = styled.li`
     list-style: none;
+    margin-right: 20px;
+    padding: 4px;
+    border-color: white;
+    border: 2px solid;
+    border-radius: 5px;
     `
 
     return (
