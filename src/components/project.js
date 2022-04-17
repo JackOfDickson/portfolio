@@ -3,7 +3,7 @@ import ProjectTool from "./ProjectTool";
 
 const Project = ({project}) => {
 
-    const madeWithNodes = project.madeWith?.map( (tool, index) => {
+    const madeWithNodes = project.tools?.map( (tool, index) => {
         return (
             <ProjectTool tool={tool} key={index}/>
         )
@@ -17,6 +17,7 @@ const Project = ({project}) => {
         <ul>
             {madeWithNodes}
         </ul>
+        <p><a href={project.link}>Github</a></p>
     </div>
     )
 }

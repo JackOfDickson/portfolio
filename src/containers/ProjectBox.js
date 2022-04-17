@@ -7,10 +7,12 @@ const ProjectBox = () => {
     const featuredProjects = [
         {title: "Ghibli Gallery",
         description: "A web application that grabs data from a Studio Ghibli api and displays information about the films. Films can be seleceted for more information",
-        madeWith: ["JavaScript", "React"]},
+        tools: ["JavaScript", "React"],
+        link: "https://github.com/JackOfDickson/Ghibli-Gallery-react"},
         {title: "Hobbyist",
         description: "An application than manages members, lessons and bookings through a web page",
-        madeWith: ["python3", "postgreSQL", "flask"]}
+        tools: ["python3", "postgreSQL", "flask"],
+        link: "https://github.com/JackOfDickson/Hobbyist_web_app"}
     ]
 
     const projectNodes = featuredProjects.map( (project, index) => {

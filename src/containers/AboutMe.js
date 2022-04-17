@@ -4,7 +4,7 @@ const AboutMe = () => {
 
     return (
     <div>
-        <h2>About Me</h2>
+        <h2>Hello I am Jack</h2>
         <p>Am learning how to program</p>
     </div>
     )
