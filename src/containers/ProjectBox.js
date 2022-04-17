@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "../components/Project"
+import styled from "styled-components"
 
 
 const ProjectBox = () => {
@@ -21,10 +22,18 @@ const ProjectBox = () => {
         )
     })
 
+    // Styled
+    const ProjectList = styled.div`
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: white;`
+
     return (
     <div>
-        <h3>Some of my Projects</h3>
+        <ProjectList>
         {projectNodes}
+        </ProjectList>
     </div>
     )
 }

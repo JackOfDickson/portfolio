@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectTool from "./ProjectTool";
+import styled from "styled-components"
 
 const Project = ({project}) => {
 
@@ -9,16 +10,28 @@ const Project = ({project}) => {
         )
     })
 
+    //styled
+
+    const ProjectContainer = styled.div`
+        width:320px;
+        margin-left: 20px;
+        margin-right: 20px;
+        `
+
+    const Title = styled.h4`
+        text-align: center;
+        `
+
     return (
-    <div>
-        <h4>{project.title}</h4>
+    <ProjectContainer>
+        <Title>{project.title}</Title>
         <p>{project.description}</p>
         <p>Made with:</p>
         <ul>
             {madeWithNodes}
         </ul>
         <p><a href={project.link}>Github</a></p>
-    </div>
+    </ProjectContainer>
     )
 }
 
